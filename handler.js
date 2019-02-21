@@ -4,7 +4,7 @@ module.exports.endpoint = (event, context, callback) => {
   const response = {
     statusCode: 200,
     body: JSON.stringify({
-      message: `Helloo, the current time is ${new Date().toTimeString()}.`,
+      message: `Helloooo, the current time is ${new Date().toTimeString()}.`,
     }),
   };
 
